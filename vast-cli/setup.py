@@ -1,6 +1,6 @@
 from setuptools import setup
 
- setup(
+setup(
    name='vast-cli',
    version='0.1.0',
    author='Vast Inc.',
@@ -10,7 +10,7 @@ from setuptools import setup
    url='http://vast.ai',
    license='LICENSE.txt',
    description='CLI interface to the Vast system.',
-   long_description=open('README.md').read(),
+   long_description=open('README.txt').read(),
    install_requires=[
        "borb==2.0.17",
        "Cython==0.29.28",
